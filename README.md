@@ -17,8 +17,7 @@ The notebook creates a trained model file under `models/` when run; that file is
 2. Open the `Dataset` folder as the notebook’s working directory.
 3. Open `house-price-prediction.ipynb` and run the cells from top to bottom.
 
-The notebook expects the CSV files in the `Dataset` folder and imports `house_price_features.py` from the project root. A `requirements.txt` file with package versions will be added separately.
-
+The notebook expects the CSV files in the `Dataset` folder and imports `house_price_features.py` from the project root.
 ## Model results
 
 The tuned XGBoost model had the lowest average RMSE in the notebook’s five-fold cross-validation comparison: **$28,706**. This is a validation result, not a Kaggle leaderboard score.
